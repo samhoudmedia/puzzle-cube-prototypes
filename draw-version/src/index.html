@@ -4,12 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>A-Frame Boilerplate</title>
+  <title>Draw Version</title>
+  <!-- <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  <script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script> -->
 </head>
 <body>
   <a-scene>
-    ${require('./objects/text.html')}
-    <a-sky color="#1D94D2"></a-sky>
+    ${require('./objects/assets.html')}
+    <a-text color="#B0CBFB" value="Draw the missing puzzle piece." position="-1.5 8 -3"></a-text>
+    <a-entity position="0 7 0" camera look-controls></a-entity>
+    <a-sky color="#ECEFF1"></a-sky>
   </a-scene>
 </body>
 </html>

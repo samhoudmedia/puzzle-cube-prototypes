@@ -17,7 +17,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'A-Frame boilerplate',
-      template: `${PATHS.app}/index.html`
+      template: `${PATHS.app}/index.html`,
+      inject: 'head'
     })
   ],
   devServer: {
