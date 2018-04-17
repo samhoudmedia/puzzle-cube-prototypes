@@ -25,7 +25,7 @@ Trying out multiple directions and versions for the cube puzzle to see which onn
 ### Installation
 1. Clone this repo
 ```
-$ git clone https://github.com/samhoudmedia/puzzle-manual.git
+$ git clone https://github.com/samhoudmedia/puzzle-cube-prototypes.git
 ```
 2. Run `npm start` to start the server.
 3. Run `npm run build` to build for production.
