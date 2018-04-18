@@ -1,0 +1,28 @@
+<a-assets>
+  <a-asset-item id="cubeObj" src="./src/objects/cube.obj"></a-asset-item>
+  <a-asset-item id="cubeMtl" src="./src/objects/cube.mtl"></a-asset-item>
+  <a-asset-item id="oneObj" src="./src/objects/one.obj"></a-asset-item>
+  <a-asset-item id="oneMtl" src="./src/objects/one.mtl"></a-asset-item>
+  <a-asset-item id="twoObj" src="./src/objects/two.obj"></a-asset-item>
+  <a-asset-item id="twoMtl" src="./src/objects/two.mtl"></a-asset-item>
+  <a-asset-item id="threeObj" src="./src/objects/three.obj"></a-asset-item>
+  <a-asset-item id="threeMtl" src="./src/objects/three.mtl"></a-asset-item>
+  <a-asset-item id="fourObj" src="./src/objects/four.obj"></a-asset-item>
+  <a-asset-item id="fourMtl" src="./src/objects/four.mtl"></a-asset-item>
+  <a-asset-item id="fiveObj" src="./src/objects/five.obj"></a-asset-item>
+  <a-asset-item id="fiveMtl" src="./src/objects/five.mtl"></a-asset-item>
+  <a-asset-item id="sixObj" src="./src/objects/six.obj"></a-asset-item>
+  <a-asset-item id="sixMtl" src="./src/objects/six.mtl"></a-asset-item>
+</a-assets>
+
+<a-entity position="0 0 -10" rotation="0 45 0" obj-model="obj: #cubeObj; mtl: #cubeMtl">
+  <a-animation attribute="rotation" to="0 405 0" direction="alternate" dur="2000"
+  repeat="indefinite"></a-animation>
+</a-entity>
+
+<a-entity position="-14 6 -15" rotation="-15 45 0" obj-model="obj: #oneObj; mtl: #oneMtl"></a-entity>
+<a-entity position="-7 6 -15" rotation="0 90 0" obj-model="obj: #twoObj; mtl: #twoMtl"></a-entity>
+<a-entity position="0 6 -15" rotation="0 45 80" obj-model="obj: #threeObj; mtl: #threeMtl"></a-entity>
+<a-entity position="7 6 -15" rotation="-60 150 45" obj-model="obj: #fiveObj; mtl: #fiveMtl"></a-entity>
+<a-entity position="14 6 -15" rotation="0 180 0" obj-model="obj: #sixObj; mtl: #sixMtl"></a-entity>
+
