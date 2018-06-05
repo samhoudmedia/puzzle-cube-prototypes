@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Soma Cube</title>
+<script type="text/javascript" src="app.js"></script></head>
+<body>
+  <a-scene>
+    <a-assets>
+  <a-asset-item id="cubeObj" src="cube.obj"></a-asset-item>
+  <a-asset-item id="cubeMtl" src="cube.mtl"></a-asset-item>
+</a-assets>
+
+<a-entity position="0 0 -10" rotation="0 45 0" obj-model="obj: #cubeObj; mtl: #cubeMtl">
+  <a-animation attribute="rotation" to="0 405 0" direction="alternate" dur="2000"
+  repeat="indefinite"></a-animation>
+</a-entity>
+
+    <a-text color="#B0CBFB" value="Draw the missing puzzle pieces." position="-1.5 8 -3"></a-text>
+    <a-entity position="0 7 0" camera look-controls></a-entity>
+    <a-sky color="#ECEFF1"></a-sky>
+  </a-scene>
+</body>
+</html>
